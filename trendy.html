@@ -5,14 +5,41 @@
 </head>
 <body>
     <h1>Trends in Version Control Systems</h1>
-    GitOps takes DevOps configuration and integrations management and mixes it with Git's Version Control element.
     <br>
     <h2>GitOps - DevOps + GitHub</h2>
+    <p>GitOps takes DevOps configuration and integrations management and mixes it with Git's Version Control element.</p>
+         <ul>
+                <li>Single source of truth: Git holds infrastructure and app state so environments can be reconstructed from the repo.</li>
+                <li>Pull requests and code review for ops changes improve transparency and auditability.</li>
+                <li>Continuous deployment tools (e.g., FluxCD, ArgoCD) sync cluster state from Git automatically.</li>
+                <li>Easy rollbacks by reverting commits, bringing developer workflows to operations.</li>
+        </ul>
     <br>
     <h2>CI/CD pipelines</h2>
+    <p>Version control helps CI/CD teams identify issues before they're pushed to release with rolling builds and commit tracking.</p>
+        <ul>
+                <li>Continuous Integration runs automated builds and tests on merges to catch regressions quickly.</li>
+                <li>Continuous Delivery/Deployment ties deployments to specific commits, making rollbacks straightforward.</li>
+                <li>Branch-based workflows map branches to environments (e.g., feature → staging, main → production).</li>
+                <li>CI systems provide fast feedback, improve code quality, and reduce integration problems.</li>
+        </ul>
     <br>
     <h2>Version Control in the Cloud</h2>
+    <p>A distributed version control system works significantly better than a centralized one, and Cloud technology allows anyone anywhere to monitor a given project.</p>
+        <ul>
+                <li>Web interfaces for code review, pull/merge requests, and inline discussion.</li>
+                <li>Integrated issue trackers and project management that link code to work items.</li>
+                <li>Built-in CI services (e.g., GitHub Actions, GitLab CI) simplify pipelines and automation.</li>
+                <li>Access control, integrations, and social coding features that enable wide collaboration.</li>
+        </ul>
     <br>
     <h2>AI and Code</h2>
+    <p>AI augments version control workflows by automating routine review tasks, surfacing likely problems, and assisting developers with suggestions and metadata derived from repository history.</p>
+        <ul>
+                <li>AI-assisted code reviews can flag bugs, vulnerabilities, and style issues in pull requests.</li>
+                <li>Research into intelligent merge conflict resolution aims to suggest context-aware merges.</li>
+                <li>AI can analyze repository history to prioritize risky files and generate summaries or draft changelogs.</li>
+                <li>Pair-programming assistants speed up coding and may integrate with VCS to suggest reviewers or tag changes.</li>
+        </ul>
 </body>
 </html>
